@@ -1,0 +1,24 @@
+{
+  "name": "th-bridge",
+  "version": "1.0.0",
+  "main": "th-bridge.js",
+  "scripts": {
+    "start": "node th-bridge.js",
+    "cobrador": "node Th-cobrador/cobrador.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "baileys",
+    "bridge"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "TH Bridge - Sistema principal de conexão WhatsApp usando Baileys",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc.9",
+    "express": "^4.22.1",
+    "pino": "^10.3.0",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
