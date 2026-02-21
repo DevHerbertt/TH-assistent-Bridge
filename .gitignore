@@ -1,0 +1,38 @@
+# Dependências
+node_modules/
+package-lock.json
+
+# Autenticação WhatsApp (NUNCA commitar - dados da sua conta)
+auth_th/
+**/auth_th/
+
+# Módulo Th-cobrador NÃO vai para este repositório (manter apenas em outro repo/local)
+Th-cobrador/
+
+# Variáveis de ambiente (podem ter secrets)
+.env
+.env.local
+.env.*.local
+
+# Arquivos de cobrança (pode conter dados sensíveis)
+cobrancas.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# Sistema
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporários
+*.tmp
+.cache/
+
+
